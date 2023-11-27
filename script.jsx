@@ -28,11 +28,8 @@ fetch(jsonFile, {
                     <div className="menu">
                         <div className="menu-links">
                             <a href="tel:+380980521402">+38098 052 14 02</a>
+                            <button className="log-in">ціни</button>
                         </div>
-                        {/* <button className="log-in">Log In</button> */}
-                    </div>
-                    <div className="menu-btn">
-                        <i className="fa fa-bars fa-solid"></i>
                     </div>
                 </nav>
             );
