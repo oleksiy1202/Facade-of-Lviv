@@ -55,13 +55,13 @@ fetch(jsonFile, {
                                 {element.street}
                             </h2>
                             <img className="content_image" src={element.image} alt={element.dekor} />
-                            <p className="content_type">
+                            <p className="content_style">
                                 тип: {element.dekor}<br />
                                 колір: {element.color}<br />
                                 ізоляція: {element.insulation}<br />
                                 ціна: {element.price} м2<br /><br />
-                                <button className="log-in" onClick={() => handleOrderClick(element)}>Замовити</button>
                             </p>
+                                <button className="log_in" onClick={() => handleOrderClick(element)}>Замовити</button>
                         </div>
                     ))}
                 </div>
