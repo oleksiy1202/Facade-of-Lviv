@@ -1,77 +1,77 @@
 [
     {
         "id": 1,
-        "dekor": "штукатурка декоративна",
+        "dekor": "Штукатурка декоративна",
         "color": "white",
         "insulation": "пінопласт 10см",
         "image": "./image/house_1.webp"
     },
     {
         "id": 2,
-        "dekor": "натуральний камінь",
+        "dekor": "Натуральний камінь",
         "color": "sand",
         "insulation": "мінеральна вата 15см",
         "image": "./image/house_2.webp"
     },
     {
         "id": 3,
-        "dekor": "кирпич клінкерний",
+        "dekor": "Кирпич клінкерний",
         "color": "red",
         "insulation": "екструдований пінополістирол 12см",
         "image": "./image/house_3.webp"
     },
     {
         "id": 4,
-        "dekor": "дерев'яні панелі",
+        "dekor": "Дерев'яні панелі",
         "color": "brown",
         "insulation": "целюлозний утеплювач 10см",
         "image": "./image/house_4.webp"
     },
     {
         "id": 5,
-        "dekor": "вентильований фасад",
+        "dekor": "Вентильований фасад",
         "color": "grey",
         "insulation": "скловата 15см",
         "image": "./image/house_5.webp"
     },
     {
         "id": 6,
-        "dekor": "металеві касети",
+        "dekor": "Металеві касети",
         "color": "silver",
         "insulation": "пінополіуретан 10см",
         "image": "./image/house_6.webp"
     },
     {
         "id": 7,
-        "dekor": "декоративна штукатурка",
+        "dekor": "Декоративна штукатурка",
         "color": "white",
         "insulation": "пінопласт 10см",
         "image": "./image/house_7.webp"
     },
     {
         "id": 8,
-        "dekor": "композитні панелі",
+        "dekor": "Композитні панелі",
         "color": "vibrant blue",
         "insulation": "пінопласт 10см",
         "image": "./image/house_8.webp"
     },
     {
         "id": 9,
-        "dekor": "теракотова плитка",
+        "dekor": "Теракотова плитка",
         "color": "terracotta",
         "insulation": "кам'яна вата 12см",
         "image": "./image/house_9.webp"
     },
     {
         "id": 10,
-        "dekor": "полірований граніт",
+        "dekor": "Полірований граніт",
         "color": "dark grey",
         "insulation": "пінополіуретановий спрей 20см",
         "image": "./image/house_10.webp"
     },
     {
         "id": 11,
-        "dekor": "дерев'яні сайдингові панелі",
+        "dekor": "Дерев'яні сайдингові панелі",
         "color": "pastel green",
         "insulation": "вторинна вата з бавовни 8см",
         "image": "./image/house_11.webp"

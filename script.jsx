@@ -23,14 +23,13 @@ fetch(jsonFile, {
                 <nav className="navbar">
                     <div className="logo">
                         <i className="fa-solid fa-font-awesome"></i>
-                        <a href="#">Віталій Фасад</a>
+                        <a href="#" className="logo_style">Віталік Фасад</a>
                     </div>
                     <div className="menu">
                         <div className="menu-links">
-                            <a href="tel:+380980521402">+38098 052 14 02</a><a href="tel:+380968668686">+38096 866 86 86</a>
-
+                            <a href="tel:+380980521402">+38098 052 14 02</a>
                         </div>
-                        <button className="log-in">Log In</button>
+                        {/* <button className="log-in">Log In</button> */}
                     </div>
                     <div className="menu-btn">
                         <i className="fa fa-bars fa-solid"></i>

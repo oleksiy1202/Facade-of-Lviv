@@ -22,6 +22,11 @@ body {
     color: aliceblue;
 }
 
+.logo_style {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
 }
