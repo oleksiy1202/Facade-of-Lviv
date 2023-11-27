@@ -23,12 +23,11 @@ fetch(jsonFile, {
                 <nav className="navbar">
                     <div className="logo">
                         <i className="fa-solid fa-font-awesome"></i>
-                        <a href="#" className="logo_style">Віталік Фасад</a>
+                        <a href="#" className="logo_style">Віталік</a>
                     </div>
                     <div className="menu">
                         <div className="menu-links">
                             <a href="tel:+380980521402">+38098 052 14 02</a>
-                            <button className="log-in">ціни</button>
                         </div>
                     </div>
                 </nav>
@@ -41,18 +40,21 @@ fetch(jsonFile, {
                     {myJson.map(element => (
                         <div key={element.id} className="card">
                             <h2 className="content_name">
-                                {element.dekor}
+                                {element.dekor}<br />
+                                {element.street}
                             </h2>
                             <img className="content_image" src={element.image} alt={element.dekor} />
                             <p className="content_type">
                                 тип: {element.dekor}<br />
                                 колір: {element.color}<br />
-                                ізоляція :{element.insulation}<br />
+                                ізоляція: {element.insulation}<br />
+                                ціна: {element.price} м2<br />
+                                <button className="log-in">Замовити</button>
                             </p>
                         </div>
                     ))}
                 </div>
-            );
+            )
         }
 
 
