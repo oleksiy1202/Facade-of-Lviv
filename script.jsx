@@ -35,6 +35,17 @@ fetch(jsonFile, {
         }
 
         function Content() {
+            const handleOrderClick = (element) => {
+                Swal.fire({
+                    title: '<div class="tel_style"><a href="tel:+380980521402">+38098 052 14 02 <br/><span class="Swal_name">Віталік<span/></a></div>',
+                    html: `<p class="Swal_info">Тип: ${element.dekor}<br/>Ізоляція: ${element.insulation}<br/>Ціна: ${element.price} м2</p>`,
+                    imageUrl: element.image,
+                    imageWidth: 300,
+                    imageHeight: 200,
+                    imageAlt: "Custom image"
+                });
+            }
+
             return (
                 <div className="content_grid">
                     {myJson.map(element => (
@@ -48,14 +59,15 @@ fetch(jsonFile, {
                                 тип: {element.dekor}<br />
                                 колір: {element.color}<br />
                                 ізоляція: {element.insulation}<br />
-                                ціна: {element.price} м2<br />
-                                <button className="log-in">Замовити</button>
+                                ціна: {element.price} м2<br /><br />
+                                <button className="log-in" onClick={() => handleOrderClick(element)}>Замовити</button>
                             </p>
                         </div>
                     ))}
                 </div>
             )
         }
+
 
 
         function Footer() {
