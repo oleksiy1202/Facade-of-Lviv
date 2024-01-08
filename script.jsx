@@ -23,7 +23,8 @@ fetch(jsonFile, {
                 <nav className="navbar">
                     <div className="logo">
                         <i className="fa-solid fa-font-awesome"></i>
-                        <a href="#" className="logo_style">Віталік</a>
+                        <a href="#" className="logo_style">Facade of Lviv
+                        </a>
                     </div>
                     <div className="menu">
                         <div className="menu-links">
@@ -61,7 +62,7 @@ fetch(jsonFile, {
                                 ізоляція: {element.insulation}<br />
                                 ціна: {element.price} м2<br /><br />
                             </p>
-                                <button className="log_in" onClick={() => handleOrderClick(element)}>Замовити</button>
+                            <button className="log_in" onClick={() => handleOrderClick(element)}>Замовити</button>
                         </div>
                     ))}
                 </div>
