@@ -161,3 +161,17 @@ button {
     transform: rotate(-360deg) skew(0deg, -5deg) scale(1.1);
     z-index: 10;
 }
+
+
+/* ''''''''''''''''telegram_style'''''''''''''''' */
+
+.telegram_style {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.viber_style,
+.telegram_style {
+    padding-top: 20px;
+    text-align: center;
+}

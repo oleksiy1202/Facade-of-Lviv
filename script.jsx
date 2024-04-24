@@ -62,7 +62,13 @@ fetch(jsonFile, {
                                 ізоляція: {element.insulation}<br />
                                 ціна: {element.price} м2<br /><br />
                             </p>
-                            <button className="log_in" onClick={() => handleOrderClick(element)}>Замовити</button>
+                            <button className="log_in" onClick={() => handleOrderClick(element)}>Замовити</button><br />
+                            <div className="telegram_style">
+                                <a href="https://t.me/Kuzminov_Oleksiy" rel="nofollow" target="_blank">Telegram</a>
+                                <a href="viber://chat?number=+380968668686" rel="nofollow" target="_blank">Viber</a>
+                            </div>
+                            {/* <a href="tg://resolve?domain=+380980521402" rel="nofollow" target="_blank">Telegram</a><br /> */}
+                            {/* <a href="viber://chat?number=+380980521402" rel="nofollow" target="_blank">Viber</a> */}
                         </div>
                     ))}
                 </div>
