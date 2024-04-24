@@ -28,7 +28,7 @@ fetch(jsonFile, {
                     </div>
                     <div className="menu">
                         <div className="menu-links">
-                            <a href="tel:+380980521402">+38098 052 14 02</a>
+                            <a href="tel:+380980521402">+380980521402</a>
                         </div>
                     </div>
                 </nav>
@@ -42,9 +42,9 @@ fetch(jsonFile, {
                     html: `<p class="Swal_info">Тип: ${element.dekor}<br/>Ізоляція: ${element.insulation}<br/>Ціна: ${element.price} м2</p>`,
                     imageUrl: element.image,
                     imageWidth: 300,
-                    imageHeight: 200,
+                    imageHeight: 'auto',
                     imageAlt: "Custom image"
-                });
+                })
             }
 
             return (
@@ -62,13 +62,13 @@ fetch(jsonFile, {
                                 ізоляція: {element.insulation}<br />
                                 ціна: {element.price} м2<br /><br />
                             </p>
-                            <button className="log_in" onClick={() => handleOrderClick(element)}>Замовити</button><br />
-                            <div className="telegram_style">
-                                <a href="https://t.me/Kuzminov_Oleksiy" rel="nofollow" target="_blank">Telegram</a>
-                                <a href="viber://chat?number=+380968668686" rel="nofollow" target="_blank">Viber</a>
+                            <div className="button_container">
+                                <button className="log_in" onClick={() => handleOrderClick(element)}>Замовити </button>
                             </div>
-                            {/* <a href="tg://resolve?domain=+380980521402" rel="nofollow" target="_blank">Telegram</a><br /> */}
-                            {/* <a href="viber://chat?number=+380980521402" rel="nofollow" target="_blank">Viber</a> */}
+                            <div className="app_style">
+                                <a href="viber://chat?number=+380980521402" className="viber_style" rel="nofollow" target="_blank">Viber</a>
+                                <a href="https://t.me/Vitaliy_Polovinchak" rel="nofollow" target="_blank">Telegram</a><hr />
+                            </div>
                         </div>
                     ))}
                 </div>
