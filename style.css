@@ -177,5 +177,10 @@ button {
 }
 
 .viber_style {
+    color: #7360f2;
     padding: 10px;
+}
+
+.telegram_style {
+    color: #0088cc;
 }
