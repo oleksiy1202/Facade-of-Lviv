@@ -32,7 +32,7 @@ fetch(jsonFile, {
                         </div>
                     </div>
                 </nav>
-            );
+            )
         }
 
         function Content() {
@@ -67,7 +67,7 @@ fetch(jsonFile, {
                             </div>
                             <div className="app_style">
                                 <a href="viber://chat?number=+380980521402" className="viber_style" rel="nofollow" target="_blank">Viber</a>
-                                <a href="https://t.me/Vitaliy_Polovinchak" className="telegram_style" rel="nofollow" target="_blank">Telegram</a><hr />
+                                <a href="https://t.me/Vitaliy_Polovinchak" className="telegram_style" rel="nofollow" target="_blank">Telegram</a>
                             </div>
                         </div>
                     ))}
