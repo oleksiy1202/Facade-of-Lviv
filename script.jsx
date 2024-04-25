@@ -66,8 +66,10 @@ fetch(jsonFile, {
                                 <button className="log_in" onClick={() => handleOrderClick(element)}>Замовити </button>
                             </div>
                             <div className="app_style">
-                                <a href="viber://chat?number=+380980521402" className="viber_style" rel="nofollow" target="_blank">Viber</a>
-                                <a href="https://t.me/Vitaliy_Polovinchak" className="telegram_style" rel="nofollow" target="_blank">Telegram</a>
+                                <h2>
+                                    <a href="viber://chat?number=+380980521402" className="viber_style" rel="nofollow" target="_blank">Viber</a>
+                                    <a href="https://t.me/Vitaliy_Polovinchak" className="telegram_style" rel="nofollow" target="_blank">Telegram</a>
+                                </h2>
                             </div>
                         </div>
                     ))}
