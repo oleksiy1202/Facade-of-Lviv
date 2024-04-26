@@ -50,7 +50,7 @@ fetch(jsonFile, {
             return (
                 <div className="content_grid">
                     {myJson.map(element => (
-                        <div key={element.id} className="card">
+                        <div key={element.id} className="cards">
                             <h2 className="content_name">
                                 {element.dekor}<br />
                                 {element.street}
@@ -76,8 +76,6 @@ fetch(jsonFile, {
                 </div>
             )
         }
-
-
 
         function Footer() {
             return (
